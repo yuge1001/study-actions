@@ -13,4 +13,4 @@ jobs:
     # 具体的な手順
     steps:  ##なにを
       - name: Say Hello
-        run: error-command "Hello, World! 福岡からエンジニアを目指します！"
+        run: echo "Hello, World! 福岡からエンジニアを目指します！"
