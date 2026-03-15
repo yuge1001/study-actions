@@ -2,15 +2,15 @@
 name: First Automation
 
 # どのタイミングで実行するか（今回は「push」された時）
-on: [push]
+on: [push]  ##いつ
 
 # 実行したい処理の塊
 jobs:
   greet-job:
     # 実行するマシンのOS（Ubuntuが一般的です）
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest  ##どこで
 
     # 具体的な手順
-    steps:
+    steps:  ##なにを
       - name: Say Hello
-        run: echo "Hello, World! 福岡からエンジニアを目指します！"
+        run: error-command "Hello, World! 福岡からエンジニアを目指します！"
